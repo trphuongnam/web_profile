@@ -1,0 +1,168 @@
+{
+    "company_1" : [
+        {
+            "id": "company_1_1",
+            "name": "UUGift - Upgrade System",
+            "description": "UUGift is an e-commerce website specializing in gift items tailored for Japan’s seasonal events and holidays. Includes several management subsystems: event management, data and logistics management, and an admin dashboard for website.",
+            "time": "",
+            "technologies": ["PHP", "Eccube 4", "JS", "MySQL", "Git", "Docker"],
+            "role": "PHP Developer",
+            "teamSize": 6,
+            "customer": "Japan",
+            "responsibility": [
+                "Customize front-end templates to match design requirements.",
+                "Develop new features.",
+                "Fix bugs and maintain legacy features on the existing EC-CUBE-based system."
+            ]
+        },
+        {
+            "id": "company_1_2",
+            "name": "Toyo Flyer",
+            "description": "Toyo Flyer is a web-based system that enables businesses to create, manage, and distribute promotional flyers. The platform supports flyer content design, manages flyers on a per-business basis, and allows online publishing.",
+            "time": "",
+            "technologies": ["ReactJS", "SASS", "Typescript", "PHP", "Laravel", "MySQL", "Git", "Docker"],
+            "role": "Front-end Developer",
+            "teamSize": 8,
+            "customer": "Japan",
+            "responsibility": [
+                "Develop user interfaces using ReactJS.",
+                "Work with back-end developers to integrate APIs and handle data processing.",
+                "Optimize performance and usability on flyer creation, editing, and management pages."
+            ]
+        },
+        {
+            "id": "company_1_3",
+            "name": "SPRIX Compass School",
+            "description": "SPRIX Compass School is an online learning management system for schools, supporting classroom, student, teacher, exam, and result management, as well as online testing.",
+            "time": "",
+            "technologies": ["NextJS", "Typescript", "Golang", "MySQL", "Git", "Docker"],
+            "role": "Front-end Developer",
+            "teamSize": 8,
+            "customer": "Japan",
+            "responsibility": [
+                "Develop and maintain user interfaces using NextJS.",
+                "Collaborate with back-end developers to integrate APIs and handle data processing.",
+                "Write unit tests for UI components and features using Jest."
+            ]
+        },
+        {
+            "id": "company_1_4",
+            "name": "EC-Photos",
+            "description": "EC-Photos is a website implemented in photo stores across Japan, allowing customers to easily create and order personalized photo albums.",
+            "time": "",
+            "technologies": ["Eccube", "PHP", "MySQL", "Git", "Docker"],
+            "role": "PHP Developer",
+            "teamSize": 6,
+            "customer": "Japan",
+            "responsibility": [
+                "Software development.",
+                "Fix bugs and maintain existing features."
+            ]
+        },
+        {
+            "id": "company_1_5",
+            "name": "Creative Heads",
+            "description": "Creative Heads is a football field management and rental project. The system includes: user site and admin dashboard.",
+            "time": "",
+            "technologies": ["VueJS", "SASS", "Typescript", "Laravel", "MySQL", "Git", "Docker"],
+            "role": "Front-end Developer",
+            "teamSize": 10,
+            "customer": "Japan",
+            "responsibility": [
+                "Front-end development.",
+                "Develop new features.",
+                "Optimize performance and usability."
+            ]
+        },
+        {
+            "id": "company_1_6",
+            "name": "Search Solution",
+            "description": "Search Solution is a system for managing products, search content, and questions and answers related to Sciseed’s platform.",
+            "time": "",
+            "technologies": ["VueJS", "SASS", "Typescript", "Django", "Python", "MySQL", "Git", "Docker"],
+            "role": "Front-end Developer",
+            "teamSize": 12,
+            "customer": "Japan",
+            "responsibility": [
+                "Develop new features.",
+                "Optimize performance and usability."
+            ]
+        },
+        {
+            "id": "company_1_7",
+            "name": "Sanyu - Kanbe",
+            "description": "Sanyu is a student management system project for overseeing international students in Japan.",
+            "time": "",
+            "technologies": ["VueJS", "SASS", "Typescript", "Java Spring", "MySQL", "Git", "Docker"],
+            "role": "Front-end Developer",
+            "teamSize": 8,
+            "customer": "Japan",
+            "responsibility": [
+                "Front-end development.",
+                "Develop new features.",
+                "Fix bugs and maintain existing features."
+            ]
+        }
+    ],
+    "company_2": [
+        {
+            "id": "company_2_1",
+            "name": "Enterprise Operating System",
+            "description": "This is an internal enterprise management system designed for small and medium-sized companies, enabling the management of documents, human resources, tasks, leave, and more.",
+            "time": "",
+            "technologies": ["PHP", "JS", "HTML5", "Bootstrap", "MySQL", "Git"],
+            "role": "PHP Developer",
+            "teamSize": 6,
+            "customer": "Viet Nam",
+            "responsibility": [
+                "Develop new features.",
+                "Fix bugs and maintain existing features."
+            ]
+        },
+        {
+            "id": "company_2_2",
+            "name": "Dananggas",
+            "description": "Dananggas is a corporate website introducing Anh Buu Company, which specializes in supplying and distributing gas products.",
+            "time": "",
+            "technologies": ["PHP", "JS", "HTML5", "Bootstrap", "MySQL", "Git"],
+            "role": "PHP Developer",
+            "teamSize": 4,
+            "customer": "Viet Nam",
+            "responsibility": [
+                "Design UI.",
+                "Develop new features.",
+                "Fix bugs and maintain project."
+            ]
+        },
+        {
+            "id": "company_2_3",
+            "name": "EEScons",
+            "description": "EEScons is a corporate website introducing EEScons Company, a construction business.",
+            "time": "",
+            "technologies": ["PHP", "JS", "HTML5", "Bootstrap", "MySQL", "Git"],
+            "role": "PHP Developer",
+            "teamSize": 4,
+            "customer": "Viet Nam",
+            "responsibility": [
+                "Design template and UI.",
+                "Fix bugs and maintain project.",
+                "Develop new features."
+            ]
+        },
+        {
+            "id": "company_2_4",
+            "name": "DanavtcSurvey",
+            "description": "DanavtcSurvey is the survey management system of Danang Vocational College.",
+            "time": "",
+            "technologies": ["PHP", "JS", "HTML5", "Bootstrap", "MySQL", "Git"],
+            "role": "PHP Developer",
+            "teamSize": 5,
+            "customer": "Viet Nam",
+            "responsibility": [
+                "Design UI.",
+                "Develop new features.",
+                "Fix bugs and maintain project."
+            ]
+        }
+    ]
+}
