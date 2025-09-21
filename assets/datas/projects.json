@@ -2,76 +2,71 @@
     "company_1" : [
         {
             "id": "company_1_1",
-            "name": "UUGift - Upgrade System",
-            "description": "UUGift is an e-commerce website specializing in gift items tailored for Japan’s seasonal events and holidays. Includes several management subsystems: event management, data and logistics management, and an admin dashboard for website.",
+            "name": "Eccube E-commerce System",
+            "description": "This is an e-commerce website specializing in gift items tailored for Japan’s seasonal events and holidays. Includes several management subsystems: event management, data and logistics management, and an admin dashboard for website.",
             "time": "",
             "technologies": ["PHP", "Eccube 4", "JS", "MySQL", "Git", "Docker"],
-            "role": "PHP Developer",
+            "role": "Backend Developer",
             "teamSize": 6,
             "customer": "Japan",
             "responsibility": [
-                "Customize front-end templates to match design requirements.",
-                "Develop new features.",
-                "Fix bugs and maintain legacy features on the existing EC-CUBE-based system."
+                "Developed event management functionality including automated seasonal event rotation and image upload features for event banners and product galleries",
+                "Modified and customized EC-CUBE's default user interface templates to match detailed design specifications and requirements"
             ]
         },
         {
             "id": "company_1_2",
-            "name": "Toyo Flyer",
-            "description": "Toyo Flyer is a web-based system that enables businesses to create, manage, and distribute promotional flyers. The platform supports flyer content design, manages flyers on a per-business basis, and allows online publishing.",
+            "name": "Flyer Manager System ",
+            "description": "This is a web-based system that enables businesses to create, manage, and distribute promotional flyers. The platform supports flyer content design, manages flyers on a per-business basis, and allows online publishing",
             "time": "",
             "technologies": ["ReactJS", "SASS", "Typescript", "PHP", "Laravel", "MySQL", "Git", "Docker"],
             "role": "Front-end Developer",
             "teamSize": 8,
             "customer": "Japan",
             "responsibility": [
-                "Develop user interfaces using ReactJS.",
-                "Work with back-end developers to integrate APIs and handle data processing.",
-                "Optimize performance and usability on flyer creation, editing, and management pages."
+                "Built and optimized interactive flyer editor interface using ReactJS, implementing drag-and-drop functionality and real-time preview features to enhance user experience",
+                "Collaborated with back-end developers to integrate RESTful APIs for flyer data management, image uploads, and template processing"
             ]
         },
         {
             "id": "company_1_3",
-            "name": "SPRIX Compass School",
-            "description": "SPRIX Compass School is an online learning management system for schools, supporting classroom, student, teacher, exam, and result management, as well as online testing.",
+            "name": "LMS Compass School",
+            "description": "LMS Compass School is an online learning management system for schools, supporting classroom, student, teacher, exam, and result management, as well as online testing.",
             "time": "",
             "technologies": ["NextJS", "Typescript", "Golang", "MySQL", "Git", "Docker"],
             "role": "Front-end Developer",
             "teamSize": 8,
             "customer": "Japan",
             "responsibility": [
-                "Develop and maintain user interfaces using NextJS.",
-                "Collaborate with back-end developers to integrate APIs and handle data processing.",
-                "Write unit tests for UI components and features using Jest."
+                "Developed multi-language switching functionality and handled database connections corresponding to selected languages using Golang",
+                "Develop and maintain user interfaces using NextJS. Write unit test for UI components and features using Jest"
             ]
         },
         {
             "id": "company_1_4",
-            "name": "EC-Photos",
-            "description": "EC-Photos is a website implemented in photo stores across Japan, allowing customers to easily create and order personalized photo albums.",
+            "name": "EC-PhotoAlbum",
+            "description": "EC-PhotoAlbum is a website implemented in photo stores across Japan, allowing customers to easily create and order personalized photo albums.",
             "time": "",
             "technologies": ["Eccube", "PHP", "MySQL", "Git", "Docker"],
             "role": "PHP Developer",
             "teamSize": 6,
             "customer": "Japan",
             "responsibility": [
-                "Software development.",
-                "Fix bugs and maintain existing features."
+                "Developed and maintained back-end services for photo album creation, order processing, and customer management functionality.",
             ]
         },
         {
             "id": "company_1_5",
-            "name": "Creative Heads",
-            "description": "Creative Heads is a football field management and rental project. The system includes: user site and admin dashboard.",
+            "name": "Football Field Booking ",
+            "description": "Football Field Booking is a football field management and rental project. The system includes: user site and admin dashboard.",
             "time": "",
             "technologies": ["VueJS", "SASS", "Typescript", "Laravel", "MySQL", "Git", "Docker"],
             "role": "Front-end Developer",
             "teamSize": 10,
             "customer": "Japan",
             "responsibility": [
-                "Front-end development.",
-                "Develop new features.",
-                "Optimize performance and usability."
+                "Participated in developing football field management screens using VueJS.",
+                "Designed and implemented RESTful APIs for user authentication, field management, booking system, and payment processing",
             ]
         },
         {
@@ -115,8 +110,7 @@
             "teamSize": 6,
             "customer": "Viet Nam",
             "responsibility": [
-                "Develop new features.",
-                "Fix bugs and maintain existing features."
+                "Developed core modules including: Employee management, document management, task assignment module, attendance module, inventory module using PHP and MySQL"
             ]
         },
         {
@@ -129,9 +123,8 @@
             "teamSize": 4,
             "customer": "Viet Nam",
             "responsibility": [
-                "Design UI.",
-                "Develop new features.",
-                "Fix bugs and maintain project."
+                "Designed and developed complete corporate website including homepage, product catalog, service pages, photo gallery, guidance section, and contact forms using PHP, HTML5, and Bootstrap framework.",
+                "Implemented responsive design and SEO optimization with Google Maps integration, mobile-friendly interface."
             ]
         },
         {
@@ -144,9 +137,8 @@
             "teamSize": 4,
             "customer": "Viet Nam",
             "responsibility": [
-                "Design template and UI.",
-                "Fix bugs and maintain project.",
-                "Develop new features."
+                "Designed and developed website including homepage, about, services portfolio, project gallery, company profile, and contact pages using PHP, HTML5, and Bootstrap framework with custom responsive templates",
+                "Implemented performance optimization and SEO optimization to ensure reliable website operation and improved search visibility"
             ]
         },
         {
@@ -159,9 +151,8 @@
             "teamSize": 5,
             "customer": "Viet Nam",
             "responsibility": [
-                "Design UI.",
-                "Develop new features.",
-                "Fix bugs and maintain project."
+                "Developed survey management backend system including survey creation tools, response collection mechanisms, user authentication, and administrative dashboard using PHP and MySQL with responsive HTML5/Bootstrap frontend interfaces.",
+                "Implemented system maintenance and feature enhancements including bug resolution, security updates"
             ]
         }
     ]
