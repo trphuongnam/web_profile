@@ -52,7 +52,7 @@
             "teamSize": 6,
             "customer": "Japan",
             "responsibility": [
-                "Developed and maintained back-end services for photo album creation, order processing, and customer management functionality.",
+                "Developed and maintained back-end services for photo album creation, order processing, and customer management functionality."
             ]
         },
         {
@@ -66,7 +66,7 @@
             "customer": "Japan",
             "responsibility": [
                 "Participated in developing football field management screens using VueJS.",
-                "Designed and implemented RESTful APIs for user authentication, field management, booking system, and payment processing",
+                "Designed and implemented RESTful APIs for user authentication, field management, booking system, and payment processing"
             ]
         },
         {
