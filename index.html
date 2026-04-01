@@ -5,8 +5,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/customize.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<script src="assets/js/submitForm.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -83,43 +85,77 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<form action="#" method="post">
+								<form action="javascript:void(0);" method="post" validate id="contact_form">
 									<div>
 										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
+											<div class="col-6 col-12-medium" id="username_box">
+												<input type="text" name="name" placeholder="Name" id="username"/>
+												<div id="username_error" class="error"></div>
 											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
+											<div class="col-6 col-12-medium" id="email_box">
+												<input type="email" name="email" placeholder="Email" id="email"/>
+												<div id="email_error" class="error"></div>
+											</div>
+											<div class="col-12" id="subject_box">
+												<input type="text" name="subject" placeholder="Subject" id="subject"/>
+												<div id="subject_error" class="error"></div>
+											</div>
+											<div class="col-12" id="message_box">
+												<textarea name="message" placeholder="Message" rows="6" id="message"></textarea>
+												<div id="message_error" class="error"></div>
 											</div>
 											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
+												<button onclick="onSubmit()" id="btn_send">Send</button>
 											</div>
 										</div>
 									</div>
 								</form>
+								<div id="contact_success" class="disabled">
+									Thank you for your contact!!!
+								</div>
 							</article>
 						<!-- Social Network -->
 							<article id="network" class="panel">
 								<header>
 									<h2>Social Network</h2>
 								</header>
-								
+								<div id="netword-body">
+									<div class="row netword-body__icons">
+										<div class="col-3">
+											<a href="https://www.facebook.com/phuongnamgroupers" target="_blank">
+												<img
+													src="assets/svg/facebook.svg"
+													alt="Facebook"
+													height="87"
+													width="100"
+												/>
+											</a>
+										</div>
+										<div class="col-3">
+											<a href="https://github.com/trphuongnam" target="_blank">
+												<img
+													src="assets/svg/github.svg"
+													alt="github"
+													height="87"
+													width="100"
+												/>
+											</a>
+										</div>
+										<div class="col-3">
+											<a href="https://www.linkedin.com/in/nam-tr%E1%BA%A7n-18b59523b/" target="_blank"></a>
+												<img
+													src="assets/svg/linkedin.svg"
+													alt="linkedin"
+													height="87"
+													width="100"
+												/>
+											</a>
+										</div>
+									</div>
+								</div>
 							</article>
 					</div>
 
-				<!-- Footer -->
-					<!-- <div id="footer">
-						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div> -->
 					<div class="modal" tabindex="-1" id="detailModal">
 						<div class="modal-dialog modal-dialog-scrollable">
 							<div class="modal-content">
